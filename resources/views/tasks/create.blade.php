@@ -2,6 +2,7 @@
 
 @section('content')
 
+{{-- @if (Auth::id() == $user->id) --}}
     <div class="prose ml-4">
         <h2 class="text-lg">タスク新規登録ページ</h2>
     </div>
@@ -26,6 +27,7 @@
             <button type="submit" class="btn btn-primary btn-outline">登録</button>
         </form>
     </div>
+{{-- @endif --}}
 
 
 @endsection
